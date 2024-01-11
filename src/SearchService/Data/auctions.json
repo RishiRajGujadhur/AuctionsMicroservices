@@ -1,0 +1,38 @@
+[
+    {
+        "id": "88889e2b-4ed3-4f58-9a69-ad195951bd55",
+        "reservePrice": 20000,
+        "seller": "Jim",
+        "winner": null,
+        "soldAmount": 0,
+        "currentHighBid": 0,
+        "createdAt": "2024-01-09T08:03:40.645642Z",
+        "updatedAt": "2024-01-09T08:03:40.645642Z",
+        "auctionEnd": "2024-02-23T08:03:40.645791Z",
+        "status": "Live",
+        "make": "Ferrari",
+        "model": "Spider",
+        "year": "2015",
+        "color": "Red",
+        "millage": 0,
+        "imageUrl": "https://cdn.pixabay.com/photo/2017/11/09/01/49/ferrari-458-spider-2932191_960_720.jpg"
+    },
+    {
+        "id": "8d22ff01-da34-4737-b23f-bfdef3805dba",
+        "reservePrice": 150000,
+        "seller": "Tod",
+        "winner": null,
+        "soldAmount": 0,
+        "currentHighBid": 0,
+        "createdAt": "2024-01-09T08:03:40.646042Z",
+        "updatedAt": "2024-01-09T08:03:40.646042Z",
+        "auctionEnd": "2024-01-22T08:03:40.646043Z",
+        "status": "Live",
+        "make": "Ferrari",
+        "model": "F-430",
+        "year": "2022",
+        "color": "Red",
+        "millage": 0,
+        "imageUrl": "https://cdn.pixabay.com/photo/2017/11/08/14/39/ferrari-f430-2930661_960_720.jpg"
+    }
+]
