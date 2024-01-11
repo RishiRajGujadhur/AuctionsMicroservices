@@ -1818,11 +1818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitHub\\Auctions\\src\\SearchService\\SearchService.csproj",
+      "projectUniqueName": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\SearchService\\SearchService.csproj",
       "projectName": "SearchService",
-      "projectPath": "F:\\GitHub\\Auctions\\src\\SearchService\\SearchService.csproj",
+      "projectPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\SearchService\\SearchService.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "F:\\GitHub\\Auctions\\src\\SearchService\\obj\\",
+      "outputPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\SearchService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1837,8 +1837,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj": {
-              "projectPath": "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj"
+            "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj": {
+              "projectPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj"
             }
           }
         }

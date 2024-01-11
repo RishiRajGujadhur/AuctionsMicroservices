@@ -2,6 +2,8 @@ using AuctionService.Data;
 using AuctionService.DTOs;
 using AuctionService.Entities;
 using AutoMapper;
+using Contracts;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,10 +16,13 @@ public class AuctionsController : ControllerBase
     private readonly AuctionDbContext context;
     private readonly IMapper mapper;
 
-    public AuctionsController(AuctionDbContext context, IMapper mapper)
+    public IPublishEndpoint PublishEndpoint { get; }
+
+    public AuctionsController(AuctionDbContext context, IMapper mapper, IPublishEndpoint publishEndpoint) 
     {
         this.context = context;
         this.mapper = mapper;
+        PublishEndpoint = publishEndpoint;
     }
 
     [HttpGet]
@@ -47,6 +52,10 @@ public class AuctionsController : ControllerBase
         auction.Seller = "test";
         context.Auctions.Add(auction);
         var result = await context.SaveChangesAsync() > 0;
+
+        var newAuction =  this.mapper.Map<AuctionDto>(auction);
+        await this.PublishEndpoint.Publish(this.mapper.Map<AuctionCreated>(newAuction));
+
         if (!result) return BadRequest("Saving failed!");
         return CreatedAtAction(nameof(GetAuctionById),
             new { auction.Id }, this.mapper.Map<AuctionDto>(auction));

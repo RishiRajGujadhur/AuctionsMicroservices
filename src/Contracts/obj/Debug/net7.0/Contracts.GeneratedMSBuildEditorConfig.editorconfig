@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Contracts
-build_property.ProjectDir = F:\GitHub\Auctions\src\Contracts\
+build_property.ProjectDir = F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\

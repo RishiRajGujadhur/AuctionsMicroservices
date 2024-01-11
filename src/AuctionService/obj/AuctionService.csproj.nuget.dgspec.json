@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub\\Auctions\\src\\AuctionService\\AuctionService.csproj": {}
+    "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "F:\\GitHub\\Auctions\\src\\AuctionService\\AuctionService.csproj": {
+    "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\Auctions\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "F:\\GitHub\\Auctions\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\Auctions\\src\\AuctionService\\obj\\",
+        "outputPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj": {
-                "projectPath": "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj"
+              "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj": {
+                "projectPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj": {
+    "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj",
+        "projectPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub\\Auctions\\src\\Contracts\\obj\\",
+        "outputPath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

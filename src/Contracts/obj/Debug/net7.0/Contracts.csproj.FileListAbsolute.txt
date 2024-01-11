@@ -1,0 +1,11 @@
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\bin\Debug\net7.0\Contracts.deps.json
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\bin\Debug\net7.0\Contracts.dll
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\bin\Debug\net7.0\Contracts.pdb
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\Contracts.AssemblyInfoInputs.cache
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\Contracts.AssemblyInfo.cs
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\Contracts.csproj.CoreCompileInputs.cache
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\Contracts.dll
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\refint\Contracts.dll
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\Contracts.pdb
+F:\GitHub\Auctions\AuctionsMicroservices\src\Contracts\obj\Debug\net7.0\ref\Contracts.dll

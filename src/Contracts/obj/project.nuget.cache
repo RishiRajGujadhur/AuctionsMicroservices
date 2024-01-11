@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uaQyn/ur5WXWaiEQM3qGWZByPnoef6oxxjzJOhKLQQoBMlVG/klAd+PSenR/gkNQVNJBGsQx+uxdZG8gcPVPmw==",
+  "dgSpecHash": "dlg3bfw5DkTAIoolXpSO8/UjpyUGh0sDfjDHmWuZkpf7NWFWf1lOxxmirbohphOSJWchUdxzG2Gcl+rkAEe6Aw==",
   "success": true,
-  "projectFilePath": "F:\\GitHub\\Auctions\\src\\Contracts\\Contracts.csproj",
+  "projectFilePath": "F:\\GitHub\\Auctions\\AuctionsMicroservices\\src\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
